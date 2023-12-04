@@ -112,8 +112,7 @@ docker run -it -p 443:443 jwt
 * Wyniki powinny być podesłane w formie `Pull Requesta` w sforkowanym projekcie
 * Pull Request powinien zawierać wszystkie 2 zadania (jeśli każde zadanie jest w innym PR lub zadanie 1 jest zrobione via PR a dwa pozostałe, które nie zawierają zmian w kodzie zgłoszone jako ISSUE wszystkie linki muszą trafić do zadania w Teams )
 * Wynik dla zadania 1 - Plik zawierający scenariusze testów + zmodyfikowany Dockerfile
-* Wynik dla zadania 2 - Opis tego co zostało zmienione, wartość tokena `JWT` , który został użyty do ataku oraz screen z odpowiedzi od serwera, pokazujący, że zalogowano się jako użytkownik `Administrator`. PR powinien zawierać modyfikacje w pliku `app.js`, która usuwa wykryty problem 
-* Wynik dla zadania 3 - opis + analiza
+* Wynik dla zadania 2 - Opis tego, co zostało zmienione, wartość tokena `JWT` , który został użyty do ataku oraz screen z odpowiedzi od serwera, pokazujący, że zalogowano się jako użytkownik `Administrator`. PR powinien zawierać modyfikacje w pliku `app.js`, która usuwa wykryty problem 
 * Linki do oceny należy umieścić w zadaniu w Teams
 
 
