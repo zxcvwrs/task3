@@ -1,4 +1,4 @@
-_# Security By Design - Zadanie 3
+# Security By Design - Zadanie 3
 
 ## Wymagania
 1. Zainstalowana komenda `git` na stacji roboczej
@@ -50,9 +50,6 @@ Python/
     referencja - slajdy od 40 z prezentacji o nazwie `5 6 7 SbD Kod.pdf`
 4. **Zmodyfikowanie pliku `Dockerfile`**
     tak aby przed zbudowaniem obrazu zrealizowane zostały testy — w przypadku niepowodzenia testów operacja `docker build...` powinna być zakończona niepowodzeniem
-5. **Przygotowanie PRa**
-   Pull Request będzie jeden dla obydwu zadań — opis tego, co powinien zawierać opisany jest na końcu
-
 
 ## Zadanie 2 - JWT — wykorzystanie podatności oraz realizacja poprawki
 
@@ -106,14 +103,6 @@ Wykonaj zmianę, a potem zweryfikuj czy działa ona w oczekiwany sposób
 docker build -t jwt --platform linux/amd64 .
 docker run -it -p 443:443 jwt
 ```
-
-
-# Podesłanie wyników
-* Wyniki powinny być podesłane w formie `Pull Requesta` w sforkowanym projekcie
-* Pull Request powinien zawierać wszystkie 2 zadania (jeśli każde zadanie jest w innym PR lub zadanie 1 jest zrobione via PR a dwa pozostałe, które nie zawierają zmian w kodzie zgłoszone jako ISSUE wszystkie linki muszą trafić do zadania w Teams )
-* Wynik dla zadania 1 - Plik zawierający scenariusze testów + zmodyfikowany Dockerfile
-* Wynik dla zadania 2 - Opis tego, co zostało zmienione, wartość tokena `JWT` , który został użyty do ataku oraz screen z odpowiedzi od serwera, pokazujący, że zalogowano się jako użytkownik `Administrator`. PR powinien zawierać modyfikacje w pliku `app.js`, która usuwa wykryty problem 
-* Linki do oceny należy umieścić w zadaniu w Teams
 
 
 # Punktowanie (ćwiczenie oceniane w skali 0-5 pkt):
